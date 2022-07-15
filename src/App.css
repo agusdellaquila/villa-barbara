@@ -5,3 +5,11 @@
 .bg-std{
     background: linear-gradient(180deg, rgba(241,232,220,1) 0%, rgba(192,205,166,1) 100%);
 }
+
+.font-face-rage {
+    font-family: "Rage";
+}
+
+.font-face-very {
+    font-family: "Very";
+}

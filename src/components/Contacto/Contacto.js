@@ -4,14 +4,14 @@ import '../Contacto/Contacto.css'
 const Contact = () => {
     return (
         <div className="my-40 flex justify-center mx-auto bgColor p-10 min-h-screen drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)]">
-            <div className="mt-5 sm:mt-0 drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)]">
-                <div className="mb-5">
-                    <div className="px-4 sm:px-0">
-                        <h3 className="text-7xl text-center font-black leading-6 text-gray-900">CONTACTO</h3>
-                        <p className="mt-10 text-3xl text-center text-gray-600">Use a permanent address where you can receive mail.</p>
-                    </div>
-                </div>
+            <div className="mt-4 sm:mt-0 drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)]">
                 <div className="md:grid md:grid-cols-1 md:gap-6">
+                    <div className="mb-5">
+                        <div className="px-4 sm:px-0">
+                            <h3 className="text-7xl text-center font-black leading-6 text-gray-900 font-face-rage">Contacto</h3>
+                            <h4 className="mt-10 text-3xl text-center text-gray-600 font-face-very">Use a permanent address where you can receive mail.</h4>
+                        </div>
+                    </div>
                     <div className="mt-5 md:mt-0 md:col-span-2">
                         <form action="#" method="POST">
                             <div className="shadow overflow-hidden sm:rounded-md">
@@ -26,7 +26,7 @@ const Contact = () => {
                                                 name="first-name"
                                                 id="first-name"
                                                 autoComplete="given-name"
-                                                className="input"
+                                                className="input border-indigo-500"
                                             />
                                         </div>
 
@@ -55,74 +55,12 @@ const Contact = () => {
                                                 className="input"
                                             />
                                         </div>
-
-                                        <div className="col-span-6 sm:col-span-3">
-                                            <label htmlFor="country" className="block text-sm font-medium text-gray-700">
-                                                Country
-                                            </label>
-                                            <select
-                                                id="country"
-                                                name="country"
-                                                autoComplete="country-name"
-                                                className="mt-1 block w-full py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
-                                            >
-                                                <option>United States</option>
-                                                <option>Canada</option>
-                                                <option>Mexico</option>
-                                            </select>
-                                        </div>
-
-                                        <div className="col-span-6">
-                                            <label htmlFor="street-address" className="block text-sm font-medium text-gray-700">
-                                                Street address
-                                            </label>
-                                            <input
-                                                type="text"
-                                                name="street-address"
-                                                id="street-address"
-                                                autoComplete="street-address"
-                                                className="input"
-                                            />
-                                        </div>
-
-                                        <div className="col-span-6 sm:col-span-6 lg:col-span-2">
-                                            <label htmlFor="city" className="block text-sm font-medium text-gray-700">
-                                                City
-                                            </label>
-                                            <input
-                                                type="text"
-                                                name="city"
-                                                id="city"
-                                                autoComplete="address-level2"
-                                                className="input"
-                                            />
-                                        </div>
-
-                                        <div className="col-span-6 sm:col-span-3 lg:col-span-2">
-                                            <label htmlFor="region" className="block text-sm font-medium text-gray-700">
-                                                State / Province
-                                            </label>
-                                            <input
-                                                type="text"
-                                                name="region"
-                                                id="region"
-                                                autoComplete="address-level1"
-                                                className="input"
-                                            />
-                                        </div>
-
-                                        <div className="col-span-6 sm:col-span-3 lg:col-span-2">
-                                            <label htmlFor="postal-code" className="block text-sm font-medium text-gray-700">
-                                                ZIP / Postal code
-                                            </label>
-                                            <input
-                                                type="text"
-                                                name="postal-code"
-                                                id="postal-code"
-                                                autoComplete="postal-code"
-                                                className="input"
-                                            />
-                                        </div>
+                                    </div>
+                                    <div className="col-span-6 sm:col-span-3 lg:col-span-2">
+                                        <label htmlFor="postal-code" className="block text-sm font-medium text-gray-700">
+                                            Mensaje
+                                        </label>
+                                        <textarea cols="200" rows="60" />
                                     </div>
                                 </div>
                                 <div className="px-4 py-3 bg-gray-50 text-center sm:px-6">
