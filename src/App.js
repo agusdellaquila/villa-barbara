@@ -8,6 +8,7 @@ import Historia from './components/Historia/Historia'
 import Contacto from './components/Contacto/Contacto'
 import NavBar from './components/NavBar/NavBar'
 import NotFound from './components/NotFound/NotFound'
+import Footer from './components/Footer/Footer'
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
                 <Route path='*' element={<NotFound/>}/>
             </Routes>
             <NavBar/>
+            <Footer/>
         </header>
       </BrowserRouter>
     </div>
