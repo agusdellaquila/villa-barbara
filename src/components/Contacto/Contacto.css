@@ -1,3 +1,12 @@
 .input{
     @apply border-solid border-2 focus:ring-indigo-500 border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 mt-1 rounded-md
 }
+
+.img-bg{
+    height: 100%;
+    background-image:url("https://serving.photos.photobox.com/603426514a969b7329cb7f771a558d5d20ff071dfa96722f741eeedbd8e644c340d5f9ba.jpg");
+    opacity: 0.9;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+}
