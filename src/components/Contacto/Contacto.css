@@ -10,3 +10,14 @@
     background-size: cover;
     background-position: center;
 }
+
+iframe{
+    width: 65vh;
+    height: 52vh;
+}
+
+#inputNombre::placeholder { color: rgb(115, 115, 205); }
+
+#inputNombre{
+    min-width:min-content   ;
+}

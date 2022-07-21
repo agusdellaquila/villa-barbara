@@ -161,7 +161,7 @@ const Reserva = () => {
                                 <img className="img-responsive rounded-lg" src={fauna[0].image} alt={fauna[0].caption} />
                             </div>
                             <div className="w-full col-span-1 sm:col-span-2 row-span-2 drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)]">
-                                <img className="img-responsive rounded-lg" src={fauna[1].image} />
+                                <img className="img-responsive rounded-lg" src={fauna[1].image} alt={fauna[0].caption} />
                             </div>
                             <div className="w-full drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)]">
                                 <img className="img-responsive rounded-lg" src={fauna[2].image} alt={fauna[0].caption} />

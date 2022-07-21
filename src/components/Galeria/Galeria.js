@@ -1,7 +1,7 @@
 import "../Galeria/Galeria.css"
 import Carousel from './Carousel/Carousel'
 import fauna from '../../../src/components/Galeria/Images/fauna.json'
-import flora from '../../../src/components/Galeria/Images/flora.json'
+/* import flora from '../../../src/components/Galeria/Images/flora.json' */
 
 const captionStyle = {
     fontSize: '2em',
