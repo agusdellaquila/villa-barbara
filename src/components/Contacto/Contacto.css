@@ -12,8 +12,8 @@
 }
 
 iframe{
-    width: 65vh;
-    height: 52vh;
+    width: 54vh;
+    height: 50vh;
 }
 
 #inputNombre::placeholder { color: rgb(115, 115, 205); }
@@ -21,3 +21,18 @@ iframe{
 #inputNombre{
     min-width:min-content   ;
 }
+
+@media (min-width: 768px) {
+    .img-bg{
+        height:auto;
+        background-image:url("https://serving.photos.photobox.com/603426514a969b7329cb7f771a558d5d20ff071dfa96722f741eeedbd8e644c340d5f9ba.jpg");
+        opacity: 0.9;
+        background-repeat:no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    iframe{
+        width: 99vh;
+        height: 52vh;
+    }
+ }

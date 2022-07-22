@@ -1,3 +1,7 @@
+import { useEffect } from 'react'
+import AOS from 'aos'
+import "aos/dist/aos.css"
+
 import "../Galeria/Galeria.css"
 import Carousel from './Carousel/Carousel'
 import fauna from '../../../src/components/Galeria/Images/fauna.json'
@@ -13,6 +17,7 @@ const slideNumberStyle = {
 }
 
 const carrusel = (data) => {
+    
     return (
         <Carousel data={data} time={2000} width="850px" height="500px" captionStyle={captionStyle}
             radius="10px" slideNumber={true} slideNumberStyle={slideNumberStyle} captionPosition="bottom"
@@ -28,27 +33,34 @@ const carrusel = (data) => {
     )
 }
 const Galeria = () => {
+    
+    useEffect(() => {
+        AOS.init();
+        AOS.refresh();
+      }, []);
 
     return (
-        <div className="mt-36 mb-32">
+        <div className="mt-32 md:mt-36 mb-18 md:mb-32">
             <div style={{ textAlign: "center" }}>
                 <h2 className="
-                    text-8xl 
-                    md:text-16xl 
-                    lg:text-24xl 
+                    m-5
+                    text-6xl 
+                    md:text-8xl
                     font-face-rage"
-                >
-                    La Vida Animal en Villa Barbara</h2>
+                    data-aos="flip-left"
+                    data-aos-duration="800"
+                >La Vida Animal en Villa Barbara</h2>
 
                 <p className="
-                    m-5 text-4xl 
+                    m-5 
+                    text-3xl 
                     md:text-4xl 
-                    lg:text-4xl 
                     font-face-very"
-                >
-                    Conoce la gran variedad de ellas que habitan en nuestra reserva...
-                </p>
-                <div style={{ padding: "0 20px" }}>
+                    data-aos="zoom-in-down"
+                    data-aos-duration="1000"
+                >Conoce la gran variedad de ellas que habitan en nuestra reserva...</p>
+
+                <div data-aos="zoom-in-left" data-aos-duration="1000" style={{ padding: "0 20px" }}>
                     {carrusel(fauna)}
                 </div>
             </div>

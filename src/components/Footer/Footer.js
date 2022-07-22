@@ -10,9 +10,26 @@ import './Footer.css'
 const Footer = () => {
     return (
         <div className='flex-grow'>
+            <div className="w-full bg-gray-900 text-gray-500 px-10">
+                <div className="max-w-7xl sm:flex-row py-4 mx-auto">
+                    <div className="flex justify-center text-center">
+                        <div className="text-center text-xl text-green-600 mb-2">
+                            <a href="https://www.facebook.com" target="_blank" rel="noreferrer">
+                                <FaFacebookF className="w-8 h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 rounded-full bg-white hover:bg-green-300 mx-1 inline-block p-1" />
+                            </a>
+                            <a href="https://www.instagram.com" target="_blank" rel="noreferrer">
+                                <FaInstagram className="w-8 h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 rounded-full bg-white hover:bg-green-300 mx-1 inline-block p-1" />
+                            </a>
+                            <NavLink to="/" >
+                                <FaWhatsapp className="w-8 h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 rounded-full bg-white hover:bg-green-300 mx-1 inline-block p-1" />
+                            </NavLink>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div className="contenedor">
                 <div className="mx-w-7xl mx-auto">
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2">
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2">
                         <div className="mb-5">
                             <h4 className="text-2xl pb-4">Villa Barbara</h4>
                             <p className="text-gray-500">
@@ -77,38 +94,19 @@ const Footer = () => {
                                 </li>
                             </ul>
                         </div>
-                        <div className="mb-5">
-                            <h4 className="pb-4">Suscríbete para recibir nuestras ofertas</h4>
-                            <p className="text-gray-500 pb-2">Cientos de personas ya están disfrutando de nuestra propuesta</p>
-                            <form className="flex flex-row flex-wrap">
-                                <input type="text" placeholder='email@email.com' />
-                                <button className="">Suscríbete</button>
-                            </form>
-                        </div>
                     </div>
                 </div>
             </div>
             <div className="w-full bg-gray-900 text-gray-500 px-10">
                 <div className="max-w-7xl sm:flex-row py-4 mx-auto">
-                    <div className="flex justify-between text-center">
+                    <div className="flex justify-center text-center">
                         <div>
                             <div>
-                                Copyright <strong>company<span></span></strong>. All Rights Reserved
+                                Copyright <strong>Reserva Villa Barbara<span></span></strong>. All Rights Reserved
                             </div>
                             <div>
                                 Desarrollado por <a href="https://www.coderhouse.com/" className="text-green-600">CoderHouse</a>
                             </div>
-                        </div>
-                        <div className="text-center text-xl text-green-600 mb-2">
-                            <NavLink to="/" >
-                                <FaFacebookF className="w-10 h-10 rounded-full bg-white hover:bg-green-300 mx-1 inline-block p-1" />
-                            </NavLink>
-                            <NavLink to="/" >
-                                <FaInstagram className="w-10 h-10 rounded-full bg-white hover:bg-green-300 mx-1 inline-block p-1" />
-                            </NavLink>
-                            <NavLink to="/" >
-                                <FaWhatsapp className="w-10 h-10 rounded-full bg-white hover:bg-green-300 mx-1 inline-block p-1" />
-                            </NavLink>
                         </div>
                     </div>
                 </div>
