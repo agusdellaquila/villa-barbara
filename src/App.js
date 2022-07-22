@@ -11,21 +11,28 @@ import NotFound from './components/NotFound/NotFound'
 import Footer from './components/Footer/Footer'
 
 function App() {
+
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    })
+  }
   return (
     <div className='bg-std my-auto'>
       <BrowserRouter>
         <header>
-            <Routes>
-                <Route path='/' element={<Home/>}/>
-                <Route path='/reservoir' element={<Reserva/>}/>
-                <Route path='/services' element={<Servicios/>}/>
-                <Route path='/galery' element={<Galeria/>}/>
-                <Route path='/history' element={<Historia/>}/>
-                <Route path='/contact' element={<Contacto/>}/>
-                <Route path='*' element={<NotFound/>}/>
-            </Routes>
-            <NavBar/>
-            <Footer/>
+          <Routes>
+            <Route path='/' element={<Home />} />
+            <Route path='/reservoir' element={<Reserva />} />
+            <Route path='/services' element={<Servicios />} />
+            <Route path='/galery' element={<Galeria />} />
+            <Route path='/history' element={<Historia />} />
+            <Route path='/contact' element={<Contacto />} />
+            <Route path='*' element={<NotFound />} />
+          </Routes>
+          <NavBar />
+          <Footer />
         </header>
       </BrowserRouter>
     </div>

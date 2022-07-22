@@ -6,6 +6,7 @@ import "aos/dist/aos.css"
 import fauna from '../Galeria/Images/fauna.json'
 
 const Reserva = () => {
+    
     useEffect(() => {
         AOS.init();
         AOS.refresh();
@@ -19,10 +20,9 @@ const Reserva = () => {
                         <div className="px-1 md:px-4">
                             <p className="
                                 text-6xl
-                                sm:text-6xl
+                                sm:text-7xl
                                 md:text-8xl
-                                text-center 
-                                font-black 
+                                text-center
                                 text-gray-900 
                                 font-face-rage
                                 drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)]"
