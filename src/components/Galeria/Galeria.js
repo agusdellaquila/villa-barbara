@@ -21,7 +21,7 @@ const carrusel = (data) => {
     return (
         <Carousel data={data} time={2000} width="850px" height="500px" captionStyle={captionStyle}
             radius="10px" slideNumber={true} slideNumberStyle={slideNumberStyle} captionPosition="bottom"
-            automatic={true} dots={true} pauseIconColor="white" pauseIconSize="40px" slideBackgroundColor="darkgrey"
+            automatic={true} pauseIconColor="white" pauseIconSize="40px" slideBackgroundColor="darkgrey"
             slideImageFit="cover" thumbnails={true} thumbnailWidth="100px"
             style={{
                 textAlign: "center",

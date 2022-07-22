@@ -13,7 +13,6 @@ function Carousel({
     slideNumber,
     style,
     captionPosition,
-    dots,
     automatic,
     pauseIconColor,
     pauseIconSize,
@@ -75,16 +74,13 @@ function Carousel({
     //Escucha los cambios de estado de las diapositivas
     useEffect(() => {
         var slides = document.getElementsByClassName("carousel-item");
-        var dots = document.getElementsByClassName("dot");
 
         var slideIndex = slide;
         var i;
         for (i = 0; i < data.length; i++) {
             slides[i].style.display = "none";
         }
-        for (i = 0; i < dots.length; i++) {
-            dots[i].className = dots[i].className.replace(" active", "");
-        }
+
         //Si las miniaturas están habilitadas
         if (thumbnails) {
             var thumbnailsArray = document.getElementsByClassName("thumbnail");
@@ -99,9 +95,8 @@ function Carousel({
             scrollTo(document.getElementById(`thumbnail-${slideIndex}`));
         }
 
-        if (slides[slideIndex] !== undefined)
-            slides[slideIndex].style.display = "block";
-        if (dots[slideIndex] !== undefined) dots[slideIndex].className += " active";
+        if (slides[slideIndex] !== undefined) slides[slideIndex].style.display = "block";
+
     }, [slide, isPaused]);
 
     return (
@@ -214,22 +209,6 @@ function Carousel({
                             >
                                 &#10095;
                             </a>
-                        )}
-                        {dots && (
-                            <div className="dots">
-                                {data.map((item, index) => {
-                                    return (
-                                        <span
-                                            className="dot"
-                                            key={index}
-                                            onClick={(e) => {
-                                                setSlide(index);
-                                                setChange(!change);
-                                            }}
-                                        ></span>
-                                    );
-                                })}
-                            </div>
                         )}
                     </div>
                 </Swipe>
