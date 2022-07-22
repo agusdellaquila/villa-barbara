@@ -8,6 +8,15 @@ import {
 import './Footer.css'
 
 const Footer = () => {
+    const scrollToTop = () =>{
+        window.scrollTo({
+          top: 0, 
+          behavior: 'smooth'
+          /* you can also use 'auto' behaviour
+             in place of 'smooth' */
+        })
+    }
+
     return (
         <div className='flex-grow'>
             <div className="w-full bg-gray-900 text-gray-500 px-10">
@@ -43,25 +52,29 @@ const Footer = () => {
                         <div className="mb-5">
                             <h4 className="text-2xl pb-4">Enlaces</h4>
                             <ul className="text-gray-500">
-                                <li>
-                                    <FaEnvira className="inline mr-2 text-green-600" />
+                                <li onClick={scrollToTop}>
+                                    <FaEnvira onClick={scrollToTop} className="inline mr-2 text-green-600" />
                                     <NavLink to="/" className="hover:text-green-700">Inicio</NavLink>
                                 </li>
-                                <li>
+                                <li onClick={scrollToTop}>
                                     <FaEnvira className="inline mr-2 text-green-600" />
                                     <NavLink to="/reservoir" className="hover:text-green-700">Reserva Forestal</NavLink>
                                 </li>
-                                <li>
+                                <li onClick={scrollToTop}>
                                     <FaEnvira className="inline mr-2 text-green-600" />
                                     <NavLink to="/services" className="hover:text-green-700">Servicios</NavLink>
                                 </li>
-                                <li>
+                                <li onClick={scrollToTop}>
                                     <FaEnvira className="inline mr-2 text-green-600" />
                                     <NavLink to="/galery" className="hover:text-green-700">Galeria</NavLink>
                                 </li>
-                                <li>
+                                <li onClick={scrollToTop}>
                                     <FaEnvira className="inline mr-2 text-green-600" />
                                     <NavLink to="/history" className="hover:text-green-700">Historia</NavLink>
+                                </li>
+                                <li onClick={scrollToTop}>
+                                    <FaEnvira className="inline mr-2 text-green-600" />
+                                    <NavLink to="/contact" className="hover:text-green-700">Ubicacion</NavLink>
                                 </li>
                             </ul>
                         </div>
