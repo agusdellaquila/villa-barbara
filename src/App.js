@@ -12,7 +12,7 @@ import Footer from './components/Footer/Footer'
 
 function App() {
   return (
-    <div className=''>
+    <div className='bg-std my-auto'>
       <BrowserRouter>
         <header>
             <Routes>

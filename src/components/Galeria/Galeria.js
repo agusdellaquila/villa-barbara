@@ -40,11 +40,11 @@ const Galeria = () => {
       }, []);
 
     return (
-        <div className="mt-32 md:mt-36 mb-18 md:mb-32">
-            <div style={{ textAlign: "center" }}>
+        <div className="mb-18 md:mb-32">
+            <div className="pt-9" style={{ textAlign: "center" }}>
                 <h2 className="
-                    m-5
-                    text-6xl 
+                    mt-20
+                    text-5xl 
                     md:text-8xl
                     font-face-rage"
                     data-aos="flip-left"
@@ -53,7 +53,7 @@ const Galeria = () => {
 
                 <p className="
                     m-5 
-                    text-3xl 
+                    text-2xl 
                     md:text-4xl 
                     font-face-very"
                     data-aos="zoom-in-down"

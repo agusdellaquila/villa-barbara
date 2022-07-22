@@ -12,8 +12,8 @@ const Reserva = () => {
       }, []);
 
     return (
-        <div className="mt-24 md:mt-32 mb-6 md:mb-12 flex justify-center mx-auto p-6 md:p-10 min-h-screen">
-            <div className="drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)]">
+        <div className="mb-6 md:mb-12 flex justify-center mx-auto p-6 md:p-10 min-h-screen">
+            <div className="mt-24 md:mt-32 drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)]">
                 <div className="md:grid md:grid-cols-1 md:gap-6">
                     <div className="mb-5">
                         <div className="px-1 md:px-4">
