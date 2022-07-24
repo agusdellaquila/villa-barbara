@@ -3,7 +3,9 @@ import {
     FaEnvira,
     FaFacebookF,
     FaInstagram,
-    FaWhatsapp
+    FaWhatsapp,
+    FaYoutube,
+    FaEnvelope
 } from 'react-icons/fa'
 import './Footer.css'
 
@@ -22,15 +24,18 @@ const Footer = () => {
                 <div className="max-w-7xl sm:flex-row py-4 mx-auto">
                     <div className="flex justify-center text-center">
                         <div className="text-center text-xl text-green-600 mb-2">
-                            <a href="https://www.facebook.com" target="_blank" rel="noreferrer">
+                            <a href="https://www.facebook.com/fincavillabarbara/" target="_blank" rel="noreferrer">
                                 <FaFacebookF className="w-8 h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 rounded-full bg-white hover:bg-green-300 mx-1 inline-block p-1" />
                             </a>
-                            <a href="https://www.instagram.com" target="_blank" rel="noreferrer">
+                            <a href="https://www.instagram.com/fincavillabarbara/" target="_blank" rel="noreferrer">
                                 <FaInstagram className="w-8 h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 rounded-full bg-white hover:bg-green-300 mx-1 inline-block p-1" />
                             </a>
-                            <NavLink to="/" >
-                                <FaWhatsapp className="w-8 h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 rounded-full bg-white hover:bg-green-300 mx-1 inline-block p-1" />
-                            </NavLink>
+                            <a href="https://youtube.com/channel/UCHDnCVrfmOzykoeuXdep8yA" target="_blank" rel="noreferrer">
+                                <FaYoutube className="w-8 h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 rounded-full bg-white hover:bg-green-300 mx-1 inline-block p-1" />
+                            </a>
+                            <a href="mailto:https://fincavillabarbara@gmail.com" target="_blank" rel="noreferrer">
+                                <FaEnvelope className="w-8 h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 rounded-full bg-white hover:bg-green-300 mx-1 inline-block p-1" />
+                            </a>
                         </div>
                     </div>
                 </div>

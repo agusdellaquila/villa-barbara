@@ -9,6 +9,7 @@ import Contacto from './components/Contacto/Contacto'
 import NavBar from './components/NavBar/NavBar'
 import NotFound from './components/NotFound/NotFound'
 import Footer from './components/Footer/Footer'
+import BtnWsp from './components/BtnWsp/BtnWsp'
 
 function App() {
 
@@ -33,6 +34,7 @@ function App() {
           </Routes>
           <NavBar />
           <Footer />
+          <BtnWsp />
         </header>
       </BrowserRouter>
     </div>
