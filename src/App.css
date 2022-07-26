@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "Rage";
+    src: local("Rage"),
+    url("../public/Fonts/Rage/RageItalicRegular.ttf") format("truetype");
+}
+ 
+@font-face {
+    font-family: "Very";
+    src: local("Very"),
+    url("../public/Fonts/Very/VerySimpleChalk.ttf") format("truetype");
+}
+
+.rage-font {
+    font-family: 'Rage';
+}
+.very-font {
+    font-family: 'Very';
+}
+
+.title {
+    font-family: 'Rage';
+    font-size: 12vw;
+}
+.subtitle {
+    font-family: 'Rage';
+    font-size: 24px;
+}
+.paragraph {
+    font-family: 'Very';
+    font-size: 16px;
+}
+
+
+html {
+    margin: 0;
+    height: auto;
+}
+body {
+    height: 100%;
+}
+.bg-std {
+    background: linear-gradient(180deg, rgba(241,232,220,1) 0%, rgba(192,205,166,1) 48%);
+}
+
+@media (min-width: 576px) and (max-width: 1023px) {
+    .title {
+        font-size: 8vw;
+    }
+    .subtitle {
+        font-size: 4vw;
+    }
+    .paragraph {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .title {
+        font-size: 9vw;
+    }
+    .subtitle {
+        font-size: 4vw;
+    }
+    .paragraph {
+        font-size: 20px;
+    }
+}

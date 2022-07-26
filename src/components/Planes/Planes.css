@@ -1,0 +1,31 @@
+.plan-container {
+    display: flex;   
+    flex-direction: column; 
+    margin-top: 2rem;
+}
+.plan-sub-container {
+    display: flex;   
+    flex-direction: column; 
+}
+.plan-img {
+    width: 250px;
+    height: max-content;
+    justify-content: flex-start;
+    margin-top: 1rem;
+}
+
+@media (min-width: 1024px){
+    .plan-container {
+        flex-direction: row; 
+    }
+    .plan-img {
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: 2rem;
+    }
+}
+@media (min-width: 576px) and (max-width: 1023px) {
+    .plan-img {
+        width: 250px;
+    }
+}
