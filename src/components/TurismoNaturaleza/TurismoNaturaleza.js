@@ -10,7 +10,7 @@ const TurismoNaturaleza = () => {
                 Tenemos una gran variedad de especies incluyendo aves propias del BST, el espacio propicio para el avistamiento, una gran oportunidad paralos amantes de las aves.
             </p>
             <div className="flex justify-center">
-                <img className="arte-img"src="media/images/naturaleza.jpg" alt="img-arte"/>
+                <img className="arte-img"src="media/images/turismo-naturaleza.jpg" alt="img-arte"/>
             </div>
         </div>
     )

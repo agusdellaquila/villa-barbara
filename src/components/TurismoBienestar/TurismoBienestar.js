@@ -17,7 +17,7 @@ const TurismoBienestar = () => {
                     </ul>
                 </div>
                 <div className="flex justify-center">
-                    <img className="bienestar-img"src="media/images/bienestar.jpg" alt="img-bienestar" />
+                    <img className="bienestar-img"src="media/images/turismo-bienestar.jpg" alt="img-bienestar" />
                 </div>
         </div>
     )
