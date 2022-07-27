@@ -26,7 +26,7 @@ const Planes = () => {
                         <p className="paragraph">Recorrido por la zona agroforestal donde aprenderás de las buenas prácticas agrícolas y la autosostenibilidad en el Bst.</p>
                         <p className="paragraph">Vista a Montes de Maria desde el mirador “Mono aullador”podrás observar las alturas de la región y el golfo de Morrosquillo.</p>
                     </div>
-                    <img className="plan-img"src="media/images/senderismo.jpg" alt="img-planes"/>
+                    <img className="plan-img"src="media/images/senderismo.jpg" alt="img-planes"/> 
                 </div>
             </div>
         </div>
