@@ -15,8 +15,8 @@ const Agroecologia = () => {
                 <p className="paragraph">Modelo endógeno</p>
             </div>
             <div className="flex justify-evenly mt-10">
-                <img className="ae-img"src="media/images/IMG_8351.jpg" alt="img-agroecologia"/>
-                <img className="ae-img" src="media/images/IMG_6877.jpg" alt="img-agroecologia"/>
+                <img className="ae-img"src="media/images/agro1.jpg" alt="img-agroecologia"/>
+                <img className="ae-img" src="media/images/agro2.jpg" alt="img-agroecologia"/>
             </div>
         </div>
     )
