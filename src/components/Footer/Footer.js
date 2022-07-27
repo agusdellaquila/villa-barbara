@@ -3,7 +3,6 @@ import {
     FaEnvira,
     FaFacebookF,
     FaInstagram,
-    FaWhatsapp,
     FaYoutube,
     FaEnvelope
 } from 'react-icons/fa'
@@ -44,13 +43,12 @@ const Footer = () => {
                 <div className="mx-w-7xl mx-auto">
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2">
                         <div className="mb-5">
-                            <h4 className="text-2xl pb-4">Villa Barbara</h4>
+                            <h4 className="text-2xl pb-4">Reserva Villa Barbara</h4>
                             <p className="text-gray-500">
-                                Av. Benavidez y Bonduel <br />
-                                Complejo Las Lajas 1 - Lote 101 <br />
-                                Colombia <br /><br />
-                                <strong>Telef: </strong>264-5501 706<br />
-                                <strong>Email: </strong>email@email.com<br />
+                                Sincelejo - Tumbatoro <br />
+                                Sucre - Colombia<br /><br />
+                                <strong>Telef: </strong>+57 314 713 4225<br />
+                                <strong>Email: </strong>fincavillabarbara@gmail.com<br />
                             </p>
                         </div>
                         <div className="mb-5">
@@ -119,7 +117,7 @@ const Footer = () => {
                     <div className="flex justify-center text-center">
                         <div>
                             <div>
-                                Copyright <strong>Reserva Villa Barbara<span></span></strong>. All Rights Reserved
+                                Copyright <a href='https://www.sembrandopaz.org'><strong>SembrandoPaz.ORG</strong></a>. Todos Los Derechos Reservados
                             </div>
                             <div>
                                 Desarrollado por <a href="https://www.coderhouse.com/" className="text-green-600">CoderHouse</a>

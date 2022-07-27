@@ -13,12 +13,6 @@ import BtnWsp from './components/BtnWsp/BtnWsp'
 
 function App() {
 
-  const scrollToTop = () => {
-    window.scrollTo({
-      top: 0,
-      behavior: 'smooth'
-    })
-  }
   return (
     <div className='bg-std my-auto'>
       <BrowserRouter>
