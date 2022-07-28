@@ -1,14 +1,6 @@
-.footer-container{
+.footer-contenedor{
     @apply p-10 bg-gray-800 text-gray-200
 }
-
-.footer-container li{
+.footer-li{
     @apply pb-4
-}
-.footer-container input{
-    @apply text-gray-500 w-2/3 p-2 border-spacing-1 focus:border-green-600
-}
-
-.footer-container button{
-    @apply p-2 w-1/3 bg-green-600 text-white hover:bg-green-700
 }

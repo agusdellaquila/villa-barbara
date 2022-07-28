@@ -1,5 +1,3 @@
-import "../TurismoNaturaleza/TurismoNaturaleza.css"
-
 const TurismoNaturaleza = () => {
     return(
         <div className="mt-28 flex-col text-center justify-center mx-auto p-10">
@@ -10,7 +8,7 @@ const TurismoNaturaleza = () => {
                 Tenemos una gran variedad de especies incluyendo aves propias del BST, el espacio propicio para el avistamiento, una gran oportunidad paralos amantes de las aves.
             </p>
             <div className="flex justify-center">
-                <img className="arte-img"src="media/images/turismo-naturaleza.jpg" alt="img-arte"/>
+                <img className="arte-img"src="media/images/turismo-naturaleza.jpg" alt="img-naturaleza"/>
             </div>
         </div>
     )

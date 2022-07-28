@@ -1,5 +1,3 @@
-import "../Gastronomia/Gastronomia.css"
-
 const Gastronomia = () => {
     return(
         <div className="mt-28 flex-col text-center justify-center mx-auto p-10 h-full">

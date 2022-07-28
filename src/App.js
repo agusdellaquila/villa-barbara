@@ -1,8 +1,6 @@
 import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Home from './components/Home/Home';
-import Reserva from './components/Reserva/Reserva'
-import Galeria from './components/Galeria/Galeria'
 import Historia from './components/Historia/Historia'
 import Contacto from './components/Contacto/Contacto'
 import NavBar from './components/NavBar/NavBar'
@@ -12,8 +10,11 @@ import TurismoBienestar from './components/TurismoBienestar/TurismoBienestar';
 import ArteNaturaleza from './components/ArteNaturaleza/ArteNaturaleza';
 import Agroecologia from './components/Agroecologia/Agroecologia';
 import Gastronomia from './components/Gastronomia/Gastronomia';
-import Footer from './components/Footer/Footer'
 import Planes from './components/Planes/Planes';
+import Footer from './components/Footer/Footer'
+import BtnWsp from './components/BtnWsp/BtnWsp'
+import Galeria from './components/Galeria/Galeria'
+import Reserva from './components/Reserva/Reserva'
 
 function App() {
   return (
@@ -36,6 +37,7 @@ function App() {
             </Routes>
             <NavBar/>
             <Footer/>
+            <BtnWsp/>
         </header>
       </BrowserRouter>
     </div>
