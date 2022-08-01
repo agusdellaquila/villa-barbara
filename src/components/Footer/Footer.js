@@ -73,7 +73,7 @@ const Footer = () => {
                             <ul className="text-gray-500">
                                 <li className='footer-li' onClick={scrollToTop}>
                                     <FaEnvira className="inline mr-2 text-green-600" />
-                                    <NavLink to="/services" className="hover:text-green-700">Servicios</NavLink>
+                                    <NavLink to="/planes" className="hover:text-green-700">Servicios</NavLink>
                                 </li>
                                 <li className='footer-li' onClick={scrollToTop}>
                                     <FaEnvira className="inline mr-2 text-green-600" />
