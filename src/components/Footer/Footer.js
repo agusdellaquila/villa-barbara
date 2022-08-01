@@ -60,6 +60,14 @@ const Footer = () => {
                                 </li>
                                 <li className='footer-li' onClick={scrollToTop}>
                                     <FaEnvira className="inline mr-2 text-green-600" />
+                                    <NavLink to="/reservoir" className="hover:text-green-700">Reserva Forestal</NavLink>
+                                </li>
+                                <li className='footer-li' onClick={scrollToTop}>
+                                    <FaEnvira className="inline mr-2 text-green-600" />
+                                    <NavLink to="/history" className="hover:text-green-700">Historia</NavLink>
+                                </li>
+                                <li className='footer-li' onClick={scrollToTop}>
+                                    <FaEnvira className="inline mr-2 text-green-600" />
                                     <NavLink to="/galery" className="hover:text-green-700">Galeria</NavLink>
                                 </li>
                                 <li className='footer-li' onClick={scrollToTop}>
@@ -73,15 +81,27 @@ const Footer = () => {
                             <ul className="text-gray-500">
                                 <li className='footer-li' onClick={scrollToTop}>
                                     <FaEnvira className="inline mr-2 text-green-600" />
-                                    <NavLink to="/planes" className="hover:text-green-700">Servicios</NavLink>
+                                    <NavLink to="/planes" className="hover:text-green-700">Planes</NavLink>
                                 </li>
                                 <li className='footer-li' onClick={scrollToTop}>
                                     <FaEnvira className="inline mr-2 text-green-600" />
-                                    <NavLink to="/reservoir" className="hover:text-green-700">Reserva Forestal</NavLink>
+                                    <NavLink to="/turismo-naturaleza" className="hover:text-green-700">Turismo de Naturaleza</NavLink>
                                 </li>
                                 <li className='footer-li' onClick={scrollToTop}>
                                     <FaEnvira className="inline mr-2 text-green-600" />
-                                    <NavLink to="/history" className="hover:text-green-700">Historia</NavLink>
+                                    <NavLink to="/turismo-bienestar" className="hover:text-green-700">Turismo de Bienestar</NavLink>
+                                </li>
+                                <li className='footer-li' onClick={scrollToTop}>
+                                    <FaEnvira className="inline mr-2 text-green-600" />
+                                    <NavLink to="/arte-naturaleza" className="hover:text-green-700">Arte con Naturaleza</NavLink>
+                                </li>
+                                <li className='footer-li' onClick={scrollToTop}>
+                                    <FaEnvira className="inline mr-2 text-green-600" />
+                                    <NavLink to="/agroecologia" className="hover:text-green-700">Agroecología</NavLink>
+                                </li>
+                                <li className='footer-li' onClick={scrollToTop}>
+                                    <FaEnvira className="inline mr-2 text-green-600" />
+                                    <NavLink to="/gastronomia" className="hover:text-green-700">Gastronomía</NavLink>
                                 </li>
                             </ul>
                         </div>

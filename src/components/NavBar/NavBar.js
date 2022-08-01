@@ -39,7 +39,7 @@ const NavBar = () => {
                     <NavLink to="/history" onClick={() => setNavbarOpen(false)}>Historia</NavLink>
                 </li>
                 <li>
-                    <NavLink to="/contact" onClick={() => setNavbarOpen(false)}>Contacto</NavLink>
+                    <NavLink to="/contact" onClick={() => setNavbarOpen(false)}>Nuestra Ubicación</NavLink>
                 </li>
             </ul>
         )
