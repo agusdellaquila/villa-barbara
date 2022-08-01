@@ -119,7 +119,7 @@ const Reserva = () => {
                         md:text-6xl 
                         text-center 
                         text-gray-600 
-                        font-face-rage
+                        rage-font
                         drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)]"
                         data-aos="zoom-in-down"
                         data-aos-duration="800"

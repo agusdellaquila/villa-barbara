@@ -9,11 +9,11 @@ import {
 import './Footer.css'
 
 const Footer = () => {
-    
-    const scrollToTop = () =>{
+
+    const scrollToTop = () => {
         window.scrollTo({
-          top: 0, 
-          behavior: 'smooth'
+            top: 0,
+            behavior: 'smooth'
         })
     }
 
@@ -60,19 +60,7 @@ const Footer = () => {
                                 </li>
                                 <li className='footer-li' onClick={scrollToTop}>
                                     <FaEnvira className="inline mr-2 text-green-600" />
-                                    <NavLink to="/reservoir" className="hover:text-green-700">Reserva Forestal</NavLink>
-                                </li>
-                                <li className='footer-li' onClick={scrollToTop}>
-                                    <FaEnvira className="inline mr-2 text-green-600" />
-                                    <NavLink to="/services" className="hover:text-green-700">Servicios</NavLink>
-                                </li>
-                                <li className='footer-li' onClick={scrollToTop}>
-                                    <FaEnvira className="inline mr-2 text-green-600" />
                                     <NavLink to="/galery" className="hover:text-green-700">Galeria</NavLink>
-                                </li>
-                                <li className='footer-li' onClick={scrollToTop}>
-                                    <FaEnvira className="inline mr-2 text-green-600" />
-                                    <NavLink to="/history" className="hover:text-green-700">Historia</NavLink>
                                 </li>
                                 <li className='footer-li' onClick={scrollToTop}>
                                     <FaEnvira className="inline mr-2 text-green-600" />
@@ -83,29 +71,17 @@ const Footer = () => {
                         <div className="mb-5">
                             <h4 className="text-2xl pb-4">Nuestros Servicios</h4>
                             <ul className="text-gray-500">
-                                <li className='footer-li'>
+                                <li className='footer-li' onClick={scrollToTop}>
                                     <FaEnvira className="inline mr-2 text-green-600" />
-                                    <NavLink to="/" className="hover:text-green-700">Planes</NavLink>
+                                    <NavLink to="/services" className="hover:text-green-700">Servicios</NavLink>
                                 </li>
-                                <li className='footer-li'>
+                                <li className='footer-li' onClick={scrollToTop}>
                                     <FaEnvira className="inline mr-2 text-green-600" />
-                                    <NavLink to="/" className="hover:text-green-700">Turismo de Naturaleza</NavLink>
+                                    <NavLink to="/reservoir" className="hover:text-green-700">Reserva Forestal</NavLink>
                                 </li>
-                                <li className='footer-li'>
+                                <li className='footer-li' onClick={scrollToTop}>
                                     <FaEnvira className="inline mr-2 text-green-600" />
-                                    <NavLink to="/" className="hover:text-green-700">Turismo de Bienestar</NavLink>
-                                </li>
-                                <li className='footer-li'>
-                                    <FaEnvira className="inline mr-2 text-green-600" />
-                                    <NavLink to="/" className="hover:text-green-700">Arte Naturaleza</NavLink>
-                                </li>
-                                <li className='footer-li'>
-                                    <FaEnvira className="inline mr-2 text-green-600" />
-                                    <NavLink to="/" className="hover:text-green-700">Agroecología</NavLink>
-                                </li>
-                                <li className='footer-li'>
-                                    <FaEnvira className="inline mr-2 text-green-600" />
-                                    <NavLink to="/" className="hover:text-green-700">Gastronomía</NavLink>
+                                    <NavLink to="/history" className="hover:text-green-700">Historia</NavLink>
                                 </li>
                             </ul>
                         </div>
@@ -117,7 +93,7 @@ const Footer = () => {
                     <div className="flex justify-center text-center">
                         <div>
                             <div>
-                                Copyright <a href='https://www.sembrandopaz.org'><strong>SembrandoPaz.ORG</strong></a>. Todos Los Derechos Reservados
+                                Copyright <a href='https://www.sembrandopaz.org' target='_blank'><strong>www.sembrandopaz.org</strong></a>. Todos Los Derechos Reservados
                             </div>
                             <div>
                                 Desarrollado por <a href="https://www.coderhouse.com/" className="text-green-600">CoderHouse</a>

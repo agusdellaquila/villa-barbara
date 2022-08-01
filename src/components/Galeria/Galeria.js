@@ -46,7 +46,7 @@ const Galeria = () => {
                     rage-font"
                     data-aos="flip-left"
                     data-aos-duration="800"
-                >La Vida Animal en Villa Barbara</h2>
+                >La Vida Silvestre en Villa Barbara</h2>
 
                 <p className="
                     m-5 
