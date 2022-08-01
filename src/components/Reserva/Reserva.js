@@ -23,7 +23,7 @@ const Reserva = () => {
                                 md:text-8xl
                                 text-center
                                 text-gray-900 
-                                font-face-rage
+                                rage-font
                                 drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)]"
                                 data-aos="flip-left"
                                 data-aos-duration="800"
@@ -37,7 +37,7 @@ const Reserva = () => {
                                 md:text-6xl 
                                 text-center 
                                 text-gray-600 
-                                font-face-rage
+                                rage-font
                                 drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)]"
                                 data-aos="zoom-in-down"
                                 data-aos-duration="800"
@@ -50,7 +50,7 @@ const Reserva = () => {
                                 sm:text-2xl
                                 md:text-3xl
                                 text-center 
-                                font-black 
+                                font-black
                                 text-gray-900 
                                 very-font
                                 leading-relaxed"

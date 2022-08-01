@@ -3,7 +3,6 @@ import AOS from 'aos'
 import "aos/dist/aos.css"
 import Carousel from './Carousel/Carousel'
 import fauna from '../../../src/components/Galeria/Images/fauna.json'
-/* import flora from '../../../src/components/Galeria/Images/flora.json' */
 
 const captionStyle = {
     fontSize: '2em',
@@ -44,7 +43,7 @@ const Galeria = () => {
                     mt-20
                     text-5xl 
                     md:text-8xl
-                    font-face-rage"
+                    rage-font"
                     data-aos="flip-left"
                     data-aos-duration="800"
                 >La Vida Animal en Villa Barbara</h2>
