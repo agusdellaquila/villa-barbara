@@ -10,7 +10,7 @@ const Reserva = () => {
         AOS.init();
         AOS.refresh();
       }, []);
-
+    
     return (
         <div className="mb-6 md:mb-12 flex justify-center mx-auto p-6 md:p-10 min-h-screen">
             <div className="mt-24 md:mt-32 drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)]">
@@ -79,31 +79,31 @@ const Reserva = () => {
                     <div className="md:mt-0 md:col-span-2">
                         <div className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 gap-2 md:gap-4">
                             <div data-aos="zoom-in-right" className="w-full drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)]">
-                                <img className="img-responsive rounded-lg" src={fauna[0].image} alt={fauna[0].caption} />
+                                <img className="img-responsive rounded-lg" src="https://serving.photos.photobox.com/49707521c1fe984d03b5b10c0aead381f02ba001f4c962777c81a8a2d74d46000e151b87.jpg" alt={fauna[0].caption} />
                             </div>
                             <div data-aos="zoom-in-left" className="w-full col-span-1 sm:col-span-2 row-span-2 drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)]">
-                                <img className="img-responsive rounded-lg" src={fauna[1].image} alt={fauna[0].caption} />
+                                <img className="img-responsive rounded-lg" src="https://serving.photos.photobox.com/79795651b0afd5d040367b3ea236b20773ebb7b5ed2a76aaaa2804c779f8b1b2e3caa452.jpg" alt={fauna[0].caption} />
                             </div>
                             <div data-aos="zoom-in-right" className="w-full drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)]">
-                                <img className="img-responsive rounded-lg" src={fauna[2].image} alt={fauna[0].caption} />
+                                <img className="img-responsive rounded-lg" src="https://serving.photos.photobox.com/585256839b27654a5bdf3c07b5e63d315c32c15a1501f1b3e6b1a609f512626be0b645f2.jpg" alt={fauna[0].caption} />
                             </div>
                             <div data-aos="zoom-in-left" className="w-full sm:col-span-2 md:col-span-1 sm:row-span-2 md:row-span-1 drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)]">
-                                <img className="img-responsive rounded-lg" src={fauna[3].image} alt={fauna[0].caption} />
+                                <img className="img-responsive rounded-lg" src="https://serving.photos.photobox.com/105544520f2d5e1813a7d7521cce4453816824e29171b58366d46729d63ca75cd0b2408c.jpg" alt={fauna[0].caption} />
                             </div>
                             <div data-aos="zoom-in-right" className="w-full drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)]">
-                                <img className="img-responsive rounded-lg" src={fauna[4].image} alt={fauna[0].caption} />
+                                <img className="img-responsive rounded-lg" src="https://serving.photos.photobox.com/74755577c94f52361355bcb7d3713d7c988d3442fb4a432652af3dba8bbff5837529cfd7.jpg" alt={fauna[0].caption} />
                             </div>
                             <div data-aos="zoom-in-left" className="w-full drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)]">
-                                <img className="img-responsive rounded-lg" src={fauna[5].image} alt={fauna[0].caption} />
+                                <img className="img-responsive rounded-lg" src="https://serving.photos.photobox.com/8980452096eddfce6ac61388c3946443cc97e9f9cb437ed6a3f985e1c5e672b9e6dc40bf.jpg" alt={fauna[0].caption} />
                             </div>
                             <div data-aos="zoom-in-right" className="w-full drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)]">
-                                <img className="rounded-lg" src={fauna[6].image} alt={fauna[0].caption} />
+                                <img className="rounded-lg" src="https://serving.photos.photobox.com/06150790a8905c9fc0332671fd2521bddc835b0c2fd797f2ee647be3105e247f405da6af.jpg" alt={fauna[0].caption} />
                             </div>
                             <div data-aos="zoom-in-left" className="w-full drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)]">
-                                <img className="rounded-lg" src={fauna[7].image} alt={fauna[0].caption} />
+                                <img className="rounded-lg" src="https://serving.photos.photobox.com/573765592aada6ba15ca286f5476a798fb66bf854e4e07ec09c40334debdbbb512188c3c.jpg" alt={fauna[0].caption} />
                             </div>
                             <div data-aos="zoom-in-right" className="w-full drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)]">
-                                <img className="rounded-lg" src={fauna[8].image} alt={fauna[0].caption} />
+                                <img className="rounded-lg" src="https://serving.photos.photobox.com/5643286004fd5c303e74c3d084c02277ac16cfd8700f079f55bff2f26954cbf1b8d87def.jpg" alt={fauna[0].caption} />
                             </div>
                         </div>
                     </div>
@@ -163,31 +163,31 @@ const Reserva = () => {
                     <div className="md:mt-0 md:col-span-2">
                         <div className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 gap-2 md:gap-4">
                             <div data-aos="zoom-in-left" className="w-full drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)]">
-                                <img className="img-responsive rounded-lg" src={fauna[0].image} alt={fauna[0].caption} />
+                                <img className="img-responsive rounded-lg" src="https://serving.photos.photobox.com/43333219686d71f4be4c5b052dd13a40ff2c27af03c8d67eb0894f3f669d34ec756f15d6.jpg" alt={fauna[0].caption} />
                             </div>
                             <div data-aos="zoom-in-right" className="w-full col-span-1 sm:col-span-2 row-span-2 drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)]">
-                                <img className="img-responsive rounded-lg" src={fauna[1].image} alt={fauna[0].caption} />
+                                <img className="img-responsive rounded-lg" src="https://serving.photos.photobox.com/437679241bf182b2c70a3de0df02b2c4487da9438dbaf9c6abc7633abf265d2e60a63f88.jpg" alt={fauna[0].caption} />
                             </div>
                             <div data-aos="zoom-in-left" className="w-full drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)]">
-                                <img className="img-responsive rounded-lg" src={fauna[2].image} alt={fauna[0].caption} />
+                                <img className="img-responsive rounded-lg" src="https://serving.photos.photobox.com/58819694300d618a7851406e02de339cea3d47f3471bbdb67e4d5322f5b7f9c564353dcc.jpg" alt={fauna[0].caption} />
                             </div>
                             <div data-aos="zoom-in-right" className="w-full sm:col-span-2 md:col-span-1 sm:row-span-2 md:row-span-1 drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)]">
-                                <img className="img-responsive rounded-lg" src={fauna[3].image} alt={fauna[0].caption} />
+                                <img className="img-responsive rounded-lg" src="https://serving.photos.photobox.com/4007082061fcb7e175e0b4573f613e43342b8b3651dd3d1a7f7b50c55de31c4c311547cd.jpg" alt={fauna[0].caption} />
                             </div>
                             <div data-aos="zoom-in-left" className="w-full drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)]">
-                                <img className="img-responsive rounded-lg" src={fauna[4].image} alt={fauna[0].caption} />
+                                <img className="img-responsive rounded-lg" src="https://serving.photos.photobox.com/71612397c5209310dc1d70b68833f8cd3c95118275cdbd6d8ebb278b3a7237432b5a6f84.jpg" alt={fauna[0].caption} />
                             </div>
                             <div data-aos="zoom-in-right" className="w-full drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)]">
-                                <img className="img-responsive rounded-lg" src={fauna[5].image} alt={fauna[0].caption} />
+                                <img className="img-responsive rounded-lg" src="https://serving.photos.photobox.com/77476783768cbffeb0df602657c1f9a54f50a38f38eafb30a411d1c215b9b519daf679db.jpg" alt={fauna[0].caption} />
                             </div>
                             <div data-aos="zoom-in-left" className="w-full drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)]">
-                                <img className="rounded-lg" src={fauna[6].image} alt={fauna[0].caption} />
+                                <img className="rounded-lg" src="https://serving.photos.photobox.com/2816821194455c85c7ca725beb5449ca941c7eaa7f24c21587d11f1cc0ef40b963e93256.jpg" alt={fauna[0].caption} />
                             </div>
                             <div data-aos="zoom-in-right" className="w-full drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)]">
-                                <img className="rounded-lg" src={fauna[7].image} alt={fauna[0].caption} />
+                                <img className="rounded-lg" src="https://serving.photos.photobox.com/842591491866e9890cc98e39dcbba64904138b66c52815a0945cec4044f18237b5975eb9.jpg" alt={fauna[0].caption} />
                             </div>
                             <div data-aos="zoom-in-left" className="w-full drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)]">
-                                <img className="rounded-lg" src={fauna[8].image} alt={fauna[0].caption} />
+                                <img className="rounded-lg" src="https://serving.photos.photobox.com/5318603856eeb8d04ba847edc1cbbc59d3189eb2207522ad06075653f1c4c54027fb89e2.jpg" alt={fauna[0].caption} />
                             </div>
                         </div>
                     </div>
