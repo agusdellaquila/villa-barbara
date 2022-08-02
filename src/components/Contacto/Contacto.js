@@ -36,7 +36,7 @@ const Contact = () => {
                         drop-shadow-[0_35px_35px_rgba(0,0,0,0.95)]"
                         data-aos="zoom-in-down"
                         data-aos-duration="1000"
-                    >Te esperamos para que disfrutes de paz y vida silvestre.</h4>
+                    >Te esperamos para que disfrutes de la paz y de la vida silvestre.</h4>
                     <Card />
                 </div>
             </div>
