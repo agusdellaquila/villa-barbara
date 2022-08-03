@@ -113,10 +113,15 @@ const Footer = () => {
                     <div className="flex justify-center text-center">
                         <div>
                             <div>
-                                Copyright <a href='https://www.sembrandopaz.org' target='_blank'><strong>www.sembrandopaz.org</strong></a>. Todos Los Derechos Reservados
+                                Copyright <a className="text-green-600" href='https://www.sembrandopaz.org' target='_blank' rel="noreferrer"><strong>www.sembrandopaz.org</strong></a>. Todos Los Derechos Reservados
+                            </div>
+                            <div className='mt-1'>
+                                Desarrollado por:
                             </div>
                             <div>
-                                Desarrollado por <a href="https://www.coderhouse.com/" className="text-green-600">CoderHouse</a>
+                                <a href="http://www.linkedin.com/in/lauraquintar" target="_blank" rel="noreferrer" className="text-gray-200 hover:text-green-500"> Laura Quintar - UI</a><i className='text-2xl'> | </i>
+                                <a href="https://agusdellaquila.github.io/acu-web-portfolio/" target="_blank" rel="noreferrer" className="text-gray-200 hover:text-green-500">Agustin Dell'AquiLa - Front</a><i className='text-2xl'> | </i>
+                                <a href="https://linkedin.com/in/miguel-castro-kenny" target="_blank" rel="noreferrer" className="text-gray-200 hover:text-green-500">Miguel Castro Kenny - Front</a>
                             </div>
                         </div>
                     </div>
