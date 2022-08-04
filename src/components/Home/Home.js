@@ -24,14 +24,14 @@ const Home = () => {
                     <div className="home-info-card flex-col">
                         <img src="../media/images/home-info-img/Shape_5-1.png" alt="placeholder img"/>
                         <p className="home-info-title">Turismo de bienestar</p>
-                        <p className="home-info-desc">Recorramos juntos este encantador lugar, donde hay muchos misterios para descubrir.</p>
+                        <p className="home-info-desc">Ofrecemos terapia con la naturaleza, cómo el entorno natural ayuda a reconectar con tu salud física y espiritual.</p>
                     </div>
                 </Link>
                 <Link to="/reservoir">
                     <div className="home-info-card flex-col">
                         <img src="../media/images/home-info-img/Shape_5-2.png" alt="placeholder img"/>
                         <p className="home-info-title">Reserva forestal</p>
-                        <p className="home-info-desc">Ofrecemos terapia con la naturaleza, cómo el entorno natural ayuda a reconectar con tu salud física y espiritual.</p>
+                        <p className="home-info-desc">Recorramos juntos este encantador lugar, donde hay muchos misterios para descubrir.</p>
                     </div>
                 </Link>
                 <Link to="/agroecologia">
