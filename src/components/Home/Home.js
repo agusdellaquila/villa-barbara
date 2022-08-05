@@ -8,7 +8,7 @@ const Home = () => {
             <section className="home-banner">
                 <div className="home-banner-heading">
                     <p className="home-banner-heading-title rage-font">Villa Bárbara</p>
-                    <p className="home-banner-heading-tag font-bold very-font ">Santuario de paz y vida silvestres</p>
+                    <p className="home-banner-heading-tag font-bold very-font ">Santuario de paz y de la vida silvestre</p>
                 </div>
             </section>
 

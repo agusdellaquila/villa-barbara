@@ -15,7 +15,7 @@ const Planes = () => {
                 <div className="plan-container">
                     <div className="plan-sub-container">
                         <p className="subtitle mt-8">Noche bajo las estrellas</p>
-                        <p className="paragraph mt-3">Podrásacampar y escuchar el sonido del bosque bajo un manto de estrellas al calor del fuego transformador.(Incluye carpa impermeable con colchonetas lámpara,cena, desayuno).</p>
+                        <p className="paragraph mt-3">Podrás acampar y escuchar el sonido del bosque bajo un manto de estrellas al calor del fuego transformador.(Incluye carpa impermeable con colchonetas lámpara,cena, desayuno).</p>
                     </div>
                     <img className="plan-img"src="media/images/planes-estrellas.jpg" alt="img-planes"/>
                 </div>
